@@ -3,7 +3,7 @@
 @section('message_content')
     <div>
         Witaj,<br><br>
-        aby zresetować hasło, wypełnij ten formularz: {{ route('showResetPassword', ['token' => $token]) }}.
+        aby zresetować hasło, wypełnij ten formularz: {{ route('password.reset', ['token' => $token]) }}.
         <br><br><br>
         Dziękujemy,<br>
         Zespół Attendize.
